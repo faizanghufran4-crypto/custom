@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Locked</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 350px;
+            padding: 20px;
+        }
+
+        .lock-card {
+            background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+            width: 200px;
+            height: 250px;
+            border-radius: 12px;
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #333;
+        }
+
+        .lock-icon {
+            font-size: 50px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 400;
+            line-height: 1.4;
+            margin-bottom: 40px;
+        }
+
+        .btn-primary {
+            background-color: #0095f6;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            width: 100%;
+            font-weight: 600;
+            cursor: pointer;
+            margin-bottom: 15px;
+        }
+
+        .btn-login {
+            background: none;
+            border: none;
+            color: #0095f6;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="lock-card">
+            <span class="lock-icon">🔒</span>
+        </div>
+
+        <h2>See this post by following the user</h2>
+
+        <button class="btn-primary" onclick="window.location.href='https://example.com/app'">sign in</button>
+        
+        <a href="YOUR_LINK_HERE" class="btn-login">sign up</a>
+    </div>
+
+</body>
+  </html>
